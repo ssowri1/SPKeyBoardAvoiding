@@ -1,5 +1,5 @@
 # SPKeyBoardAvoiding
-It's a smart KeyBoard manager with active text field using ScrollView alongwith Constraints in Swift 4
+It's a smart KeyBoard manager with active text field using ScrollView alongwith Constraints in Objective C & Swift 4 
 
 ![Screenshot](https://github.com/ssowri1/SPKeyBoardAvoiding/blob/master/ScreenShot.gif?raw=true)
 
