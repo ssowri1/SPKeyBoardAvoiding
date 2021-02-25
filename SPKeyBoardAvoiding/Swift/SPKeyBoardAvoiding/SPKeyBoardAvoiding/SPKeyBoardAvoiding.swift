@@ -25,3 +25,12 @@ class SPKeyBoardAvoiding: UIScrollView, UIScrollViewDelegate {
         return true
     }
 }
+
+override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        resetScrollView()
+    }
+    
+    func resetScrollView() {
+        UIApplication.shared.sendAction(#selector(resignFirstResponder), to: nil, from: nil, for: nil)
+        self.setContentOffset(.zero, animated: true)
+    }
