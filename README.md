@@ -18,7 +18,7 @@ Change your scrollview class name as SPKeyBoardAvoiding in storyboard which cont
 ### Step III
 Make sure the UITextFieldDelegate is presence in your class & Just put the below textFieldShouldReturn method to your class and update as follows,
 
-        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+   func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         // Reset the scrollview content offset
         self.scrollView.setContentOffset(CGPoint.zero, animated: true)
         self.view.endEditing(true)
